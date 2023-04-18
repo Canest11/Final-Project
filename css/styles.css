@@ -1,0 +1,13 @@
+.hero-section { 
+    background-size: cover;
+    background-position: right;
+     text-align: center;
+     padding: 20px;
+     height: 180px;
+     width: 100%;
+     margin: auto;
+     background: linear-gradient(to bottom, #ccffcc 0%, #ffff66 100%);
+     border:solid;
+}
+
+
