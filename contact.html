@@ -12,6 +12,9 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e6be4f7808.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Imbue:wght@200&display=swap" rel="stylesheet">
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="javascript" href="./contact.js">
@@ -44,13 +47,12 @@
     </header>
     <!-- MAIN CONTENT -->
     <main>
-
         <section>
             <h1 class="text-center">Create A Message or Question</h1>
             <div class="row">
               <form class="col-md-6 m-auto">
                 <div>
-                  <label for="concern-input">Are you Message or Concern?</label>
+                  <label for="concern-input">Do You Have A Message or Concern?</label>
                   <select id="concern-input" name="concern-input" class="form-control">
                     <option value="message">Message</option>
                     <option value="concern">Concern</option>
@@ -67,13 +69,17 @@
                   <input type="text" id="main-title-input" name="main-title-input" class="form-control" placeholder="Title">
                 </div>
                 <div>
-                  <label for="message-input">Message</label>
-                  <input type="text" id="message-input" name="message-input" class="form-control" placeholder="What's On Your Mind">
+                    <label for="exampleFormControlTextarea1" class="form-label">Write To Us</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div>
                   <label for="email-input">Email</label>
                   <input type="text" id="email-input" name="email-input" class="form-control" placeholder="Where We Can Reach You">
                 </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Send An Attachment</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                  </div>
                 <button type="submit" class="btn btn-outline-primary mt-4">Create</button>
               </form>
             </div>

@@ -47,11 +47,11 @@ footer > p {
 }
 header, 
 footer > p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Imbue', serif;
 }
 
 footer > p > span {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Imbue', serif;
   font-size: 16px;
   font-weight: 700;
   color: rgb(188, 83, 83);
